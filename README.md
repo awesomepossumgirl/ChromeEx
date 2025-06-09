@@ -20,7 +20,7 @@
 <p align="center"><img src="./Images/URLTrimmyActive_2.png" alt="URLTrimmy Active 탭" width="300" /></p>
 
 ### 🔹 History 탭
-- 최근에 줄인 URL 최신 3건을 확인하고 복사
+- 최근에 줄인 URL 최신 3건을 확인하고 복사할 수 있어요
 <p align="center"><img src="./Images/URLTrimmyHistory_4.png" alt="URLTrimmy 배너" width="300" /></p>
 
 
@@ -62,7 +62,7 @@ AWS 기반 시스템 아키텍처 구성
 - 로그인 기능이 필요한 경우 Cognito 사용
 - 유료 플랜/사용량 제한 기능 구현 시 API Key 기반 접근 제어 가능
 
----
+
 
 ## 🛠️ URL 단축 방식 (기술적 설명)
 
@@ -74,6 +74,7 @@ AWS 기반 시스템 아키텍처 구성
 
 ```javascript
 const shortId = createHash('sha256').update(originalUrl).digest('hex').slice(0, 6);
+```
 
 ## 📌 향후 계획
 - URL 공유 기능 (SNS, 이메일 등)
