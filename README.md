@@ -1,6 +1,6 @@
 
-# URLTrimmy
-<p align="center"><img src="./Images/URLTrimmy.png" alt="URLTrimmy 배너" width="600" /></p>
+# Shortify
+<p align="center"><img src="./Images/ShortifyLogo.png" alt="URLTrimmy 배너" width="600" /></p>
 <div align="center">
 - 🔗 Shortify는 긴 링크를 간편하게 줄여주는 크롬 확장 프로그램입니다. <br>
 - 쉽고 빠르게 링크를 줄이고, 이전 사용 내역도 확인해보세요. <br>
